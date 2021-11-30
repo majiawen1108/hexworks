@@ -27,14 +27,14 @@ public class demo {
             threads[i] = new Thread(new Runnable() {
                 public void run() {
                     try {
-                        while (true) {
+//                        while (true) {
                             lastSemphore.acquire();
                             System.out.println("thread" + index + ": " + result++);
                             if (result > 100){
                                 System.exit(0);
                             }
                             curSemphore.release();
-                        }
+//                        }
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
