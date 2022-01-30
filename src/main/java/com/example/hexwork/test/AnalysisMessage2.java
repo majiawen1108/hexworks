@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * Hello world!
  */
-public class AnalysisMessage3 {
+public class AnalysisMessage2 {
     private static String serial_record = "户名|账号|币种|余额|可用余额|开户日期|账户类型|开户行|错误信息|成功标志" +
             "|XXX公司|310066661010121088868|CNY|85317882.08|85317882.08|19951117|1|310999||0" +
             "|XXX公司2|310066661010121088868|CNY|853178822.08|853178822.08|19951117|1|310999||0|";
